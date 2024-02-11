@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+
+    <script>
+
+  var dv=document.createElement("div")
+  document.body.appendChild(dv)
+  dv.style.border="2px solid"
+  dv.style.height="40px"
+  dv.style.borderRadius="50px"
+  
+
+  var dv1=document.createElement("div")
+  dv.appendChild(dv1)
+  dv1.style.backgroundColor="green"
+  dv1.style.height="40px"
+  dv1.style.borderRadius="50px"
+  dv1.style.width="0px"
+  
+
+
+
+  var bt1=document.createElement("button")
+  document.body.appendChild(bt1)
+  bt1.innerText="40%"
+  bt1.style.marginTop="30px"
+  bt1.style.marginLeft='50px'
+  bt1.addEventListener("click",first)
+
+
+
+  var bt2=document.createElement("button")
+  document.body.appendChild(bt2)
+  bt2.innerText="70%"
+  bt2.style.marginTop="30px"
+  bt2.style.marginLeft='50px'
+  bt2.addEventListener("click",second)
+
+
+  var bt3=document.createElement("button")
+  document.body.appendChild(bt3)
+  bt3.innerText="100%"
+  bt3.style.marginTop="30px"
+  bt3.style.marginLeft='50px'
+  bt3.addEventListener("click",third)
+
+function first(){
+    dv1.style.width="40%"
+}
+
+
+function second(){
+    dv1.style.width="70%"
+}
+
+
+function third(){
+    dv1.style.width="100%"
+}
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

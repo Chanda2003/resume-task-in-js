@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+           height: 500px;
+           
+          
+        }
+    </style>
+</head>
+<body>
+    
+
+
+<center>
+<img src="" alt="">
+
+</center>
+<button onclick="joy()">Go back</button>
+
+<script>
+
+    var baba=localStorage.getItem("src")
+
+    var papa=localStorage.getItem("baba")
+
+
+    var im=document.getElementsByTagName("img")
+    im[0].setAttribute("src",baba)
+
+var dec=document.createElement("h1")
+document.body.appendChild(dec)
+dec.innerText=papa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function joy(){
+    window.history.back("./cart-js.html")
+}
+
+
+
+
+</script>
+
+
+</body>
+</html>
